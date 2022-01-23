@@ -1,0 +1,78 @@
+*, ::after, ::before {
+    margin: 0;
+    box-sizing: border-box  ;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+     
+    
+}
+.order-card {
+    width: 25rem;
+    max-width: 85%;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #fff;
+  }
+  img {
+     
+      object-fit: cover;
+  }
+  .d-flex{
+      display: flex;
+     }
+
+    .t-align{
+    text-align: center;
+}
+.icon-text{
+ padding-right: 40px;
+}
+.img-side{
+    background-color: gainsboro;
+    width: 331px;
+    border-radius: 7px;
+    text-align: center;
+    margin: auto;
+}
+.card-main {
+    /*padding: 50px 0;*/
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('../images/pattern-background-desktop.svg');
+     background-size: cover;
+     background-position: 0 0; 
+     background-repeat: no-repeat;
+     
+}
+.card-style {
+    height: 100%;
+    position: relative; 
+    
+}
+.card-content-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff; 
+    width: 450px; 
+     
+}
+.btn button {
+        display: block;
+        width: 100%;
+        border-color: transparent;
+        background: transparent;
+        font-size: .9rem;
+        font-weight: 700;
+        padding: .6rem 0;
+        cursor: pointer;
+      }
+button.btn-payment{
+        background: hsl(245, 75%, 52%);
+        color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 10px 11px 1px #3829e04f;
+      }
